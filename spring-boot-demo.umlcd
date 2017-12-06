@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_vN474NmtEee0yeA16wE4DQ">
+  <modelElement href="spring-boot-demo.uml#_wiYpoNmtEee0yeA16wE4DQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x9k1QNmtEee0yeA16wE4DQ" sourceAnchor="175.0,0.0" targetAnchor="32.0,44.0" target="_-bFe0NmtEee0yeA16wE4DQ" source="_x9umW9mtEee0yeA16wE4DQ">
+    <modelElement href="spring-boot-demo.uml#_wtaN4NmtEee0yeA16wE4DQ"/>
+    <visualProperties xmi:id="_-bFe4NmtEee0yeA16wE4DQ" position="239.0,164.0"/>
+    <stereotypes xmi:id="_x9k1QdmtEee0yeA16wE4DQ" name="Reference">
+      <modelElement href="spring-boot-demo.uml#_wtaN4tmtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x9k1QtmtEee0yeA16wE4DQ" text="">
+      <visualProperties xmi:id="_-j4OcdmtEee0yeA16wE4DQ" position="-44.0,-35.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x9k1Q9mtEee0yeA16wE4DQ" aggregationKind="NONE" name="">
+      <modelElement href="spring-boot-demo.uml#_wtaN4dmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_-j4OcNmtEee0yeA16wE4DQ" position="-17.0,-72.0"/>
+      <visibility xmi:id="_x9k1RNmtEee0yeA16wE4DQ" label="+"/>
+      <cardinality xmi:id="_x9k1RdmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x9k1RtmtEee0yeA16wE4DQ" aggregationKind="NONE" name="ftpClient" navigable="true">
+      <modelElement href="spring-boot-demo.uml#_wsg2ANmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_-j4OctmtEee0yeA16wE4DQ" position="2.0,26.0"/>
+      <visibility xmi:id="_x9k1R9mtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9k1SNmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x9umQNmtEee0yeA16wE4DQ" sourceAnchor="456.0,0.0" targetAnchor="174.0,62.0" target="_-bFe1NmtEee0yeA16wE4DQ" source="_x9umW9mtEee0yeA16wE4DQ">
+    <modelElement href="spring-boot-demo.uml#_wtaN49mtEee0yeA16wE4DQ"/>
+    <visualProperties xmi:id="_-bFe4dmtEee0yeA16wE4DQ" position="239.0,164.0"/>
+    <stereotypes xmi:id="_x9umQdmtEee0yeA16wE4DQ" name="Reference">
+      <modelElement href="spring-boot-demo.uml#_wtaN5dmtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x9umQtmtEee0yeA16wE4DQ" text="">
+      <visualProperties xmi:id="_-kB_cdmtEee0yeA16wE4DQ" position="-85.0,-4.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x9umQ9mtEee0yeA16wE4DQ" aggregationKind="NONE" name="">
+      <modelElement href="spring-boot-demo.uml#_wtaN5NmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_-kB_cNmtEee0yeA16wE4DQ" position="41.0,-46.0"/>
+      <visibility xmi:id="_x9umRNmtEee0yeA16wE4DQ" label="+"/>
+      <cardinality xmi:id="_x9umRdmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x9umRtmtEee0yeA16wE4DQ" aggregationKind="NONE" name="fos" navigable="true">
+      <modelElement href="spring-boot-demo.uml#_wsg2AtmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_-kB_ctmtEee0yeA16wE4DQ" position="2.0,12.0"/>
+      <visibility xmi:id="_x9umR9mtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umSNmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x9umSdmtEee0yeA16wE4DQ" sourceAnchor="34.0,0.0" targetAnchor="39.0,44.0" target="_-bFe2NmtEee0yeA16wE4DQ" source="_x9umW9mtEee0yeA16wE4DQ">
+    <modelElement href="spring-boot-demo.uml#_wtaN5tmtEee0yeA16wE4DQ"/>
+    <visualProperties xmi:id="_-bFe4tmtEee0yeA16wE4DQ" position="239.0,164.0"/>
+    <stereotypes xmi:id="_x9umStmtEee0yeA16wE4DQ" name="Reference">
+      <modelElement href="spring-boot-demo.uml#_wtaN6NmtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x9umS9mtEee0yeA16wE4DQ" text="">
+      <visualProperties xmi:id="_-kB_dNmtEee0yeA16wE4DQ" position="-65.0,19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x9umTNmtEee0yeA16wE4DQ" aggregationKind="NONE" name="">
+      <modelElement href="spring-boot-demo.uml#_wtaN59mtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_-kB_c9mtEee0yeA16wE4DQ" position="2.0,-68.0"/>
+      <visibility xmi:id="_x9umTdmtEee0yeA16wE4DQ" label="+"/>
+      <cardinality xmi:id="_x9umTtmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x9umT9mtEee0yeA16wE4DQ" aggregationKind="NONE" name="ipaddress" navigable="true">
+      <modelElement href="spring-boot-demo.uml#_wsg2BdmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_-kB_ddmtEee0yeA16wE4DQ" position="-67.00000000000001,22.0"/>
+      <visibility xmi:id="_x9umUNmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umUdmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x9umUtmtEee0yeA16wE4DQ" sourceAnchor="128.0,0.0" targetAnchor="48.0,69.0" target="_-bFe3NmtEee0yeA16wE4DQ" source="_x9umW9mtEee0yeA16wE4DQ">
+    <modelElement href="spring-boot-demo.uml#_wtaN6dmtEee0yeA16wE4DQ"/>
+    <visualProperties xmi:id="_-bFe49mtEee0yeA16wE4DQ" position="239.0,164.0"/>
+    <stereotypes xmi:id="_x9umU9mtEee0yeA16wE4DQ" name="Reference">
+      <modelElement href="spring-boot-demo.uml#_wtaN69mtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x9umVNmtEee0yeA16wE4DQ" text="">
+      <visualProperties xmi:id="_-kB_d9mtEee0yeA16wE4DQ" position="2.0,-15.30769230769232"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x9umVdmtEee0yeA16wE4DQ" aggregationKind="NONE" name="">
+      <modelElement href="spring-boot-demo.uml#_wtaN6tmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_-kB_dtmtEee0yeA16wE4DQ" position="-17.0,-78.4"/>
+      <visibility xmi:id="_x9umVtmtEee0yeA16wE4DQ" label="+"/>
+      <cardinality xmi:id="_x9umV9mtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x9umWNmtEee0yeA16wE4DQ" aggregationKind="NONE" name="fileReadFromWMDatenFTPController" navigable="true">
+      <modelElement href="spring-boot-demo.uml#_wsg2CdmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_-kB_eNmtEee0yeA16wE4DQ" position="-252.00000000000003,1.0000000000000568"/>
+      <visibility xmi:id="_x9umWdmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umWtmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-bFe1NmtEee0yeA16wE4DQ" name="FileOutputStream" associationsIn="_x9umQNmtEee0yeA16wE4DQ">
+    <modelElement href="spring-boot-demo.uml#_wrxPINmtEee0yeA16wE4DQ"/>
+    <visualProperties xmi:id="_-bFe1dmtEee0yeA16wE4DQ" position="287.0,-56.0" size="348.0,62.0"/>
+    <stereotypes xmi:id="_-bFe1tmtEee0yeA16wE4DQ" name="Reference">
+      <modelElement href="spring-boot-demo.uml#_wr7AINmtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <visibility xmi:id="_-bFe19mtEee0yeA16wE4DQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-bFe3NmtEee0yeA16wE4DQ" name="FileReadFromWMDatenFTPController" associationsIn="_x9umUtmtEee0yeA16wE4DQ">
+    <modelElement href="spring-boot-demo.uml#_wsN7EtmtEee0yeA16wE4DQ"/>
+    <visualProperties xmi:id="_-bFe3dmtEee0yeA16wE4DQ" position="85.0,-192.0" size="221.0,69.0"/>
+    <stereotypes xmi:id="_-bFe3tmtEee0yeA16wE4DQ" name="Reference">
+      <modelElement href="spring-boot-demo.uml#_wsN7E9mtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <visibility xmi:id="_-bFe39mtEee0yeA16wE4DQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-bFe2NmtEee0yeA16wE4DQ" name="InetAddress" associationsIn="_x9umSdmtEee0yeA16wE4DQ">
+    <modelElement href="spring-boot-demo.uml#_wsEKEtmtEee0yeA16wE4DQ"/>
+    <visualProperties xmi:id="_-bFe2dmtEee0yeA16wE4DQ" position="0.0,-69.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_-bFe2tmtEee0yeA16wE4DQ" name="Reference">
+      <modelElement href="spring-boot-demo.uml#_wsEKE9mtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <visibility xmi:id="_-bFe29mtEee0yeA16wE4DQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-bFe0NmtEee0yeA16wE4DQ" name="FTPClient" associationsIn="_x9k1QNmtEee0yeA16wE4DQ">
+    <modelElement href="spring-boot-demo.uml#_wr7AJdmtEee0yeA16wE4DQ"/>
+    <visualProperties xmi:id="_-bFe0dmtEee0yeA16wE4DQ" position="148.0,-82.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_-bFe0tmtEee0yeA16wE4DQ" name="Reference">
+      <modelElement href="spring-boot-demo.uml#_wr7AJtmtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <visibility xmi:id="_-bFe09mtEee0yeA16wE4DQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_x9umW9mtEee0yeA16wE4DQ" name="ReadFtpFileController" associationsOut="_x9k1QNmtEee0yeA16wE4DQ _x9umQNmtEee0yeA16wE4DQ _x9umSdmtEee0yeA16wE4DQ _x9umUtmtEee0yeA16wE4DQ">
+    <modelElement href="spring-boot-demo.uml#_wkKyW9mtEee0yeA16wE4DQ"/>
+    <visualProperties xmi:id="_x9umXNmtEee0yeA16wE4DQ" position="5.0,86.0" size="714.0,257.0"/>
+    <stereotypes xmi:id="_x9umXdmtEee0yeA16wE4DQ" name="LegacyStyledElement">
+      <modelElement href="spring-boot-demo.uml#_wkUjUNmtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_x9umXtmtEee0yeA16wE4DQ" name="Annotations">
+      <modelElement href="spring-boot-demo.uml#_wkeUVdmtEee0yeA16wE4DQ"/>
+    </stereotypes>
+    <visibility xmi:id="_x9umX9mtEee0yeA16wE4DQ" label="+"/>
+    <attributes xmi:id="_x9umYNmtEee0yeA16wE4DQ" defaultValue="new FTPClient()" name="ftpClient">
+      <modelElement href="spring-boot-demo.uml#_wsg2ANmtEee0yeA16wE4DQ"/>
+      <visibility xmi:id="_x9umYdmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umYtmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x9umY9mtEee0yeA16wE4DQ" name="FTPClient">
+        <modelElement href="spring-boot-demo.uml#_wr7AJdmtEee0yeA16wE4DQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x9umZNmtEee0yeA16wE4DQ" defaultValue="null" name="fos">
+      <modelElement href="spring-boot-demo.uml#_wsg2AtmtEee0yeA16wE4DQ"/>
+      <visibility xmi:id="_x9umZdmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umZtmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x9umZ9mtEee0yeA16wE4DQ" name="FileOutputStream">
+        <modelElement href="spring-boot-demo.uml#_wrxPINmtEee0yeA16wE4DQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x9umaNmtEee0yeA16wE4DQ" name="result">
+      <modelElement href="spring-boot-demo.uml#_wsg2BNmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_NRCmcNmuEee0yeA16wE4DQ"/>
+      <visibility xmi:id="_x9umadmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umatmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x9uma9mtEee0yeA16wE4DQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x9umbNmtEee0yeA16wE4DQ" name="ipaddress">
+      <modelElement href="spring-boot-demo.uml#_wsg2BdmtEee0yeA16wE4DQ"/>
+      <visibility xmi:id="_x9umbdmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umbtmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x9umb9mtEee0yeA16wE4DQ" name="InetAddress">
+        <modelElement href="spring-boot-demo.uml#_wsEKEtmtEee0yeA16wE4DQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x9umcNmtEee0yeA16wE4DQ" name="ip">
+      <modelElement href="spring-boot-demo.uml#_wsg2BtmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_NRCmcdmuEee0yeA16wE4DQ"/>
+      <visibility xmi:id="_x9umcdmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umctmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x9umc9mtEee0yeA16wE4DQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x9umdNmtEee0yeA16wE4DQ" defaultValue="&quot;C:\\WORK STATION\\MicroservicesHrms\\FTPServerConnection\\downloadftp&quot;" name="destinationPath">
+      <modelElement href="spring-boot-demo.uml#_wsg2B9mtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_NRCmctmuEee0yeA16wE4DQ"/>
+      <visibility xmi:id="_x9umddmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umdtmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x9umd9mtEee0yeA16wE4DQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x9umeNmtEee0yeA16wE4DQ" name="fileReadFromWMDatenFTPController">
+      <modelElement href="spring-boot-demo.uml#_wsg2CdmtEee0yeA16wE4DQ"/>
+      <visibility xmi:id="_x9umedmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umetmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x9ume9mtEee0yeA16wE4DQ" name="FileReadFromWMDatenFTPController">
+        <modelElement href="spring-boot-demo.uml#_wsN7EtmtEee0yeA16wE4DQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x9umfNmtEee0yeA16wE4DQ" defaultValue="&quot;C:\\WORK STATION\\MicroservicesHrms\\FTPServerConnection\\extracted&quot;" name="extractedDestPath">
+      <modelElement href="spring-boot-demo.uml#_wsg2CtmtEee0yeA16wE4DQ"/>
+      <visualProperties xmi:id="_NRCmc9muEee0yeA16wE4DQ"/>
+      <visibility xmi:id="_x9umfdmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umftmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x9umf9mtEee0yeA16wE4DQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_x9umgNmtEee0yeA16wE4DQ" name="init">
+      <modelElement href="spring-boot-demo.uml#_wkUjUdmtEee0yeA16wE4DQ"/>
+      <stereotypes xmi:id="_x9umgdmtEee0yeA16wE4DQ" name="Annotations">
+        <modelElement href="spring-boot-demo.uml#_wkUjUtmtEee0yeA16wE4DQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x9umgtmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umg9mtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_x9umhNmtEee0yeA16wE4DQ" name="downloadFile">
+      <modelElement href="spring-boot-demo.uml#_wkUjVNmtEee0yeA16wE4DQ"/>
+      <stereotypes xmi:id="_x9umhdmtEee0yeA16wE4DQ" name="Annotations">
+        <modelElement href="spring-boot-demo.uml#_wkeUUNmtEee0yeA16wE4DQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x9umhtmtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umh9mtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x9umiNmtEee0yeA16wE4DQ">
+        <modelElement href="spring-boot-demo.uml#_wkUjVtmtEee0yeA16wE4DQ"/>
+        <type xmi:id="_x9umidmtEee0yeA16wE4DQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x9umitmtEee0yeA16wE4DQ" name="fileName">
+        <modelElement href="spring-boot-demo.uml#_wkUjVdmtEee0yeA16wE4DQ"/>
+        <cardinality xmi:id="_x9umi9mtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x9umjNmtEee0yeA16wE4DQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x9umjdmtEee0yeA16wE4DQ" name="destroy">
+      <modelElement href="spring-boot-demo.uml#_wkeUUtmtEee0yeA16wE4DQ"/>
+      <stereotypes xmi:id="_x9umjtmtEee0yeA16wE4DQ" name="Annotations">
+        <modelElement href="spring-boot-demo.uml#_wkeUU9mtEee0yeA16wE4DQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x9umj9mtEee0yeA16wE4DQ" label="~"/>
+      <cardinality xmi:id="_x9umkNmtEee0yeA16wE4DQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

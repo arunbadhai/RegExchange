@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_vKUDcNmtEee0yeA16wE4DQ" name="spring_boot_demo">
+    <eAnnotations xmi:id="_v94OYNmtEee0yeA16wE4DQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_v-LJUNmtEee0yeA16wE4DQ" source="codegen">
+        <details xmi:id="_v-LJUdmtEee0yeA16wE4DQ" key="codegenDirectory" value="/FTPServerConnection/src/main/java"/>
+        <details xmi:id="_xShGENmtEee0yeA16wE4DQ" key="AssociatedSourceCode" value="/FTPServerConnection/src/main/java/com/ftp/server/ReadFTPFILE.java;2345343866/1;/FTPServerConnection/src/main/java/com/ftp/server/ReadFtpFileController.java;2024036124/1;/FTPServerConnection/src/main/java/com/ftp/server/FtpServerConnectionApplication.java;1966803510/1;/FTPServerConnection/src/test/java/com/ftp/server/FtpServerConnectionApplicationTests.java;408037085/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_wkBoYNmtEee0yeA16wE4DQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_wkKyUNmtEee0yeA16wE4DQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_wkKyUdmtEee0yeA16wE4DQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_wkKyUtmtEee0yeA16wE4DQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_wkKyU9mtEee0yeA16wE4DQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_wkKyVNmtEee0yeA16wE4DQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_wkKyVdmtEee0yeA16wE4DQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_wkKyVtmtEee0yeA16wE4DQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_wkKyV9mtEee0yeA16wE4DQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wiFusNmtEee0yeA16wE4DQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wiFusdmtEee0yeA16wE4DQ" name="ftp">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wiYpoNmtEee0yeA16wE4DQ" name="server">
+          <packagedElement xmi:type="uml:Class" xmi:id="_wkKyW9mtEee0yeA16wE4DQ" name="ReadFtpFileController">
+            <ownedAttribute xmi:id="_wsg2ANmtEee0yeA16wE4DQ" name="ftpClient" visibility="package" type="_wr7AJdmtEee0yeA16wE4DQ" association="_wtaN4NmtEee0yeA16wE4DQ">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wsg2AdmtEee0yeA16wE4DQ" value="new FTPClient()"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wsg2AtmtEee0yeA16wE4DQ" name="fos" visibility="package" type="_wrxPINmtEee0yeA16wE4DQ" association="_wtaN49mtEee0yeA16wE4DQ">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wsg2A9mtEee0yeA16wE4DQ" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wsg2BNmtEee0yeA16wE4DQ" name="result" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wsg2BdmtEee0yeA16wE4DQ" name="ipaddress" visibility="package" type="_wsEKEtmtEee0yeA16wE4DQ" association="_wtaN5tmtEee0yeA16wE4DQ"/>
+            <ownedAttribute xmi:id="_wsg2BtmtEee0yeA16wE4DQ" name="ip" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wsg2B9mtEee0yeA16wE4DQ" name="destinationPath" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wsg2CNmtEee0yeA16wE4DQ" value="&quot;C:\\WORK STATION\\MicroservicesHrms\\FTPServerConnection\\downloadftp&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_wsg2CdmtEee0yeA16wE4DQ" name="fileReadFromWMDatenFTPController" visibility="package" type="_wsN7EtmtEee0yeA16wE4DQ" association="_wtaN6dmtEee0yeA16wE4DQ"/>
+            <ownedAttribute xmi:id="_wsg2CtmtEee0yeA16wE4DQ" name="extractedDestPath" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_wsg2C9mtEee0yeA16wE4DQ" value="&quot;C:\\WORK STATION\\MicroservicesHrms\\FTPServerConnection\\extracted&quot;"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wtQc4NmtEee0yeA16wE4DQ" name="init" specification="_wkUjUdmtEee0yeA16wE4DQ">
+              <language>java</language>
+              <body>ipaddress = InetAddress.getLocalHost(); &#xD;
+ 	ip = ipaddress.getHostAddress().toString();&#xD;
+ 	ftpClient.connect(ip);&#xD;
+     result = ftpClient.login(&quot;testuser&quot;, &quot;test&quot;);&#xD;
+     &#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wtQc4dmtEee0yeA16wE4DQ" name="downloadFile" specification="_wkUjVNmtEee0yeA16wE4DQ">
+              <ownedParameter xmi:id="_wtQc4tmtEee0yeA16wE4DQ" name="fileName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wtQc49mtEee0yeA16wE4DQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>if (result == true) {&#xD;
+	    		&#xD;
+	                System.out.println(&quot;Successfully logged in!&quot;);&#xD;
+		    } else {&#xD;
+		            //System.out.println(&quot;Login Fail!&quot;);&#xD;
+		            return &quot;Login Fail!&quot;;&#xD;
+		    }&#xD;
+	    	  &#xD;
+	    	&#xD;
+	    		File destDir=new File(destinationPath);&#xD;
+	    		if (!destDir.exists()) {&#xD;
+	    			destDir.mkdir();&#xD;
+	    		} &#xD;
+	    		fos = new FileOutputStream(destDir +File.separator+fileName);&#xD;
+&#xD;
+	            // Download file from the ftp server&#xD;
+	            result = ftpClient.retrieveFile(fileName, fos);&#xD;
+&#xD;
+	            if (result == true) {&#xD;
+	                    System.out.println(&quot;File downloaded successfully !&quot;);&#xD;
+	            } else {&#xD;
+	                    System.out.println(&quot;File downloading failed !&quot;);&#xD;
+	            }&#xD;
+	            &#xD;
+	           &#xD;
+	           &#xD;
+	    	return fileReadFromWMDatenFTPController.read(destinationPath+File.separator+fileName, extractedDestPath);&#xD;
+&#xD;
+	    	&#xD;
+ 	&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_wtQc5NmtEee0yeA16wE4DQ" name="destroy" specification="_wkeUUtmtEee0yeA16wE4DQ">
+              <language>java</language>
+              <body>System.out.println(&quot;*********Destroy()********&quot;);&#xD;
+		try {&#xD;
+			&#xD;
+			 ftpClient.logout();&#xD;
+		} catch (FTPConnectionClosedException e) {&#xD;
+  		  &#xD;
+         e.printStackTrace();&#xD;
+         &#xD;
+   } catch (IOException e) {&#xD;
+ 	  &#xD;
+			e.printStackTrace();&#xD;
+			&#xD;
+		} finally {&#xD;
+           try {&#xD;
+                   if (fos != null) {&#xD;
+                          &#xD;
+                 	  fos.close();&#xD;
+                   }&#xD;
+                   &#xD;
+                   ftpClient.disconnect();&#xD;
+           &#xD;
+           } catch (FTPConnectionClosedException e) {&#xD;
+                  &#xD;
+         	  System.err.println(e);&#xD;
+           }&#xD;
+   }&#xD;
+		&#xD;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_wkUjUdmtEee0yeA16wE4DQ" name="init" visibility="package" method="_wtQc4NmtEee0yeA16wE4DQ" raisedException="_wr7AI9mtEee0yeA16wE4DQ _wr7AIdmtEee0yeA16wE4DQ"/>
+            <ownedOperation xmi:id="_wkUjVNmtEee0yeA16wE4DQ" name="downloadFile" visibility="package" method="_wtQc4dmtEee0yeA16wE4DQ" raisedException="_wr7AIdmtEee0yeA16wE4DQ _wsEKGtmtEee0yeA16wE4DQ">
+              <ownedParameter xmi:id="_wkUjVdmtEee0yeA16wE4DQ" name="fileName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_wkUjVtmtEee0yeA16wE4DQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_wkeUUtmtEee0yeA16wE4DQ" name="destroy" visibility="package" method="_wtQc5NmtEee0yeA16wE4DQ" raisedException="_wr7AIdmtEee0yeA16wE4DQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wtaN4NmtEee0yeA16wE4DQ" name="" memberEnd="_wtaN4dmtEee0yeA16wE4DQ _wsg2ANmtEee0yeA16wE4DQ">
+            <ownedEnd xmi:id="_wtaN4dmtEee0yeA16wE4DQ" name="" type="_wkKyW9mtEee0yeA16wE4DQ" association="_wtaN4NmtEee0yeA16wE4DQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wtaN49mtEee0yeA16wE4DQ" name="" memberEnd="_wtaN5NmtEee0yeA16wE4DQ _wsg2AtmtEee0yeA16wE4DQ">
+            <ownedEnd xmi:id="_wtaN5NmtEee0yeA16wE4DQ" name="" type="_wkKyW9mtEee0yeA16wE4DQ" association="_wtaN49mtEee0yeA16wE4DQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wtaN5tmtEee0yeA16wE4DQ" name="" memberEnd="_wtaN59mtEee0yeA16wE4DQ _wsg2BdmtEee0yeA16wE4DQ">
+            <ownedEnd xmi:id="_wtaN59mtEee0yeA16wE4DQ" name="" type="_wkKyW9mtEee0yeA16wE4DQ" association="_wtaN5tmtEee0yeA16wE4DQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wtaN6dmtEee0yeA16wE4DQ" name="" memberEnd="_wtaN6tmtEee0yeA16wE4DQ _wsg2CdmtEee0yeA16wE4DQ">
+            <ownedEnd xmi:id="_wtaN6tmtEee0yeA16wE4DQ" name="" type="_wkKyW9mtEee0yeA16wE4DQ" association="_wtaN6dmtEee0yeA16wE4DQ"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wihzlNmtEee0yeA16wE4DQ" name="wmdaten">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wihzldmtEee0yeA16wE4DQ" name="controller">
+          <packagedElement xmi:type="uml:Class" xmi:id="_wsN7EtmtEee0yeA16wE4DQ" name="FileReadFromWMDatenFTPController"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wiO4oNmtEee0yeA16wE4DQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wiO4odmtEee0yeA16wE4DQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wrxPINmtEee0yeA16wE4DQ" name="FileOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wr7AIdmtEee0yeA16wE4DQ" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wsEKENmtEee0yeA16wE4DQ" name="File"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wiO4otmtEee0yeA16wE4DQ" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wr7AI9mtEee0yeA16wE4DQ" name="SocketException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wsEKEtmtEee0yeA16wE4DQ" name="InetAddress"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wiO4o9mtEee0yeA16wE4DQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wiO4pNmtEee0yeA16wE4DQ" name="apache">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wiO4pdmtEee0yeA16wE4DQ" name="commons">
+          <packagedElement xmi:type="uml:Package" xmi:id="_wiO4ptmtEee0yeA16wE4DQ" name="net">
+            <packagedElement xmi:type="uml:Package" xmi:id="_wiO4p9mtEee0yeA16wE4DQ" name="ftp">
+              <packagedElement xmi:type="uml:Class" xmi:id="_wr7AJdmtEee0yeA16wE4DQ" name="FTPClient"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_wr7AJ9mtEee0yeA16wE4DQ" name="FTPConnectionClosedException"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wiYppdmtEee0yeA16wE4DQ" name="json">
+        <packagedElement xmi:type="uml:Class" xmi:id="_wsEKGtmtEee0yeA16wE4DQ" name="JSONException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wihzkNmtEee0yeA16wE4DQ" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wihzkdmtEee0yeA16wE4DQ" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_wihzktmtEee0yeA16wE4DQ" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_wihzk9mtEee0yeA16wE4DQ" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_wsEKHNmtEee0yeA16wE4DQ" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_wsN7ENmtEee0yeA16wE4DQ" name="RestController"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_wjIQgNmtEee0yeA16wE4DQ" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_wjIQgdmtEee0yeA16wE4DQ" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_wsN7FtmtEee0yeA16wE4DQ" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_wjIQhNmtEee0yeA16wE4DQ" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_wjIQhdmtEee0yeA16wE4DQ" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_wsXsFdmtEee0yeA16wE4DQ" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wsN7FNmtEee0yeA16wE4DQ" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_wjSBgNmtEee0yeA16wE4DQ" name="test">
+          <packagedElement xmi:type="uml:Package" xmi:id="_wjSBgdmtEee0yeA16wE4DQ" name="context">
+            <packagedElement xmi:type="uml:Package" xmi:id="_wjSBgtmtEee0yeA16wE4DQ" name="junit4">
+              <packagedElement xmi:type="uml:Class" xmi:id="_wsXsF9mtEee0yeA16wE4DQ" name="SpringRunner"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wjIQgtmtEee0yeA16wE4DQ" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wjIQg9mtEee0yeA16wE4DQ" name="runner">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_wsXsE9mtEee0yeA16wE4DQ" name="RunWith"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_wsXsEdmtEee0yeA16wE4DQ" name="Test"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wiYpodmtEee0yeA16wE4DQ" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_wiYpotmtEee0yeA16wE4DQ" name="annotation">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_wsEKFNmtEee0yeA16wE4DQ" name="PostConstruct"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_wsEKFtmtEee0yeA16wE4DQ" name="PreDestroy"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_wiYpo9mtEee0yeA16wE4DQ" name="ws">
+        <packagedElement xmi:type="uml:Package" xmi:id="_wiYppNmtEee0yeA16wE4DQ" name="rs">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_wsEKGNmtEee0yeA16wE4DQ" name="QueryParam"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_v-U6UNmtEee0yeA16wE4DQ">
+      <eAnnotations xmi:id="_v-U6UdmtEee0yeA16wE4DQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_CMyO0NmuEee0yeA16wE4DQ">
+      <eAnnotations xmi:id="_CMyO0dmuEee0yeA16wE4DQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCHITECTUREREVIEW_PROFILES/ArchitectureReview.profile.uml#_ypx9siN3EeK_4-5pMoCxQg"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://ARCHITECTUREREVIEW_PROFILES/ArchitectureReview.profile.uml#_qTOicCN3EeK_4-5pMoCxQg"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_v-eEQNmtEee0yeA16wE4DQ" base_Package="_vKUDcNmtEee0yeA16wE4DQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_wkUjUNmtEee0yeA16wE4DQ" base_Element="_wkKyW9mtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Annotations xmi:id="_wkUjUtmtEee0yeA16wE4DQ" base_Element="_wkUjUdmtEee0yeA16wE4DQ">
+    <annotations xmi:id="_wkUjU9mtEee0yeA16wE4DQ" name="PostConstruct"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_wkUjV9mtEee0yeA16wE4DQ" base_Element="_wkUjVdmtEee0yeA16wE4DQ">
+    <annotations xmi:id="_wkUjWNmtEee0yeA16wE4DQ" name="QueryParam">
+      <annotationParameters xmi:id="_wkUjWdmtEee0yeA16wE4DQ" name="value" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_wtQc6NmtEee0yeA16wE4DQ" value="&quot;fileName&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_wkeUUNmtEee0yeA16wE4DQ" base_Element="_wkUjVNmtEee0yeA16wE4DQ">
+    <annotations xmi:id="_wkeUUdmtEee0yeA16wE4DQ" name="GetMapping"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_wkeUU9mtEee0yeA16wE4DQ" base_Element="_wkeUUtmtEee0yeA16wE4DQ">
+    <annotations xmi:id="_wkeUVNmtEee0yeA16wE4DQ" name="PreDestroy"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_wkeUVdmtEee0yeA16wE4DQ" base_Element="_wkKyW9mtEee0yeA16wE4DQ">
+    <annotations xmi:id="_wkeUVtmtEee0yeA16wE4DQ" name="RestController"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_wr7AINmtEee0yeA16wE4DQ" base_Element="_wrxPINmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wr7AItmtEee0yeA16wE4DQ" base_Element="_wr7AIdmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wr7AJNmtEee0yeA16wE4DQ" base_Element="_wr7AI9mtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wr7AJtmtEee0yeA16wE4DQ" base_Element="_wr7AJdmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wr7AKNmtEee0yeA16wE4DQ" base_Element="_wr7AJ9mtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsEKEdmtEee0yeA16wE4DQ" base_Element="_wsEKENmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsEKE9mtEee0yeA16wE4DQ" base_Element="_wsEKEtmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsEKFdmtEee0yeA16wE4DQ" base_Element="_wsEKFNmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsEKF9mtEee0yeA16wE4DQ" base_Element="_wsEKFtmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsEKGdmtEee0yeA16wE4DQ" base_Element="_wsEKGNmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsEKG9mtEee0yeA16wE4DQ" base_Element="_wsEKGtmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsEKHdmtEee0yeA16wE4DQ" base_Element="_wsEKHNmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsN7EdmtEee0yeA16wE4DQ" base_Element="_wsN7ENmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsN7E9mtEee0yeA16wE4DQ" base_Element="_wsN7EtmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsN7FdmtEee0yeA16wE4DQ" base_Element="_wsN7FNmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsXsENmtEee0yeA16wE4DQ" base_Element="_wsN7FtmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsXsEtmtEee0yeA16wE4DQ" base_Element="_wsXsEdmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsXsFNmtEee0yeA16wE4DQ" base_Element="_wsXsE9mtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsXsFtmtEee0yeA16wE4DQ" base_Element="_wsXsFdmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wsXsGNmtEee0yeA16wE4DQ" base_Element="_wsXsF9mtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wtaN4tmtEee0yeA16wE4DQ" base_Element="_wtaN4NmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wtaN5dmtEee0yeA16wE4DQ" base_Element="_wtaN49mtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wtaN6NmtEee0yeA16wE4DQ" base_Element="_wtaN5tmtEee0yeA16wE4DQ"/>
+  <UMLLabProfile:Reference xmi:id="_wtaN69mtEee0yeA16wE4DQ" base_Element="_wtaN6dmtEee0yeA16wE4DQ"/>
+</xmi:XMI>
